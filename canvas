@@ -1,0 +1,48 @@
+<html> 
+<body onload = "start()"> 
+  <canvas width="700" height="700" id="canvas"></canvas>
+  <img id ="photo" src="less.png">
+  <script> 
+    var canvas = document.getElementById('canvas'); 
+    var c = canvas.getContext('2d');
+    // Тело
+    c.fillStyle = "red";
+    c.beginPath();
+    c.ellipse(300, 300, 200, 140, Math.PI / 2, 0, 2 * Math.PI);
+    c.stroke();
+    c.fill();
+    c.closePath();
+  </script>
+
+   <script>
+    var g = canvas.getContext('2d');
+   //Лицо
+    g.fillStyle = '#6bcdc8';
+    g.beginPath();
+    g.ellipse(240, 230, 90, 50, Math.PI / 1, 0, 2 * Math.PI);
+    g.stroke();
+    g.fill();
+    g.closePath();
+   </script>
+
+   <script>
+    var f = canvas.getContext('2d');
+    //Рюкзак
+    f.fillstyle = "red";
+    f.beginPath();
+    f.ellipse(455, 300, 140, 70, Math.PI / 2, 0, 2 * Math.PI);
+    f.stroke;
+    f.fill();
+    f.closePath();
+   </script>
+   <script>
+   ctx.fillStyle = "black";
+   ctx.font = "italic "+96+"pt Arial ";
+   ctx.fillText("this is text", 20,150);
+   </script>
+   <script>
+       var img = document.getElementById("photo");
+       c.drawImage(img, 200, 65, 66, 66);
+   </script>
+</body> 
+</html>
