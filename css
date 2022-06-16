@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto:400,700,900&display=swap&subset=cyrillic");
+
+body {
+  line-height: 1.5em;
+}
+
+.container {
+  width:70%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+ h1 {
+   font-size: 32px;
+ }
+
+table, td, th {
+  border: 1px solid black;
+}
+
+figure {
+  font-style: italic;
+  float: right;
+}
