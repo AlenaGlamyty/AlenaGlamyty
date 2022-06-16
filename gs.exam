@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <title>Задача 12</title>
+        <p>Это input type="submit".</p>
+        <input type="submit" onclick="press(this)" value="Нажми на меня!">
+  </head>
+  <body>
+    <script>
+      function press(elem){
+			elem.value = 'О, теперь на меня больше не нажать!';
+			elem.disabled = true;
+		}
+    </script>
+  </body>
+</html>
